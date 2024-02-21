@@ -54,7 +54,7 @@
     "jszip": "^3.1.5",
     "minilog": "^3.1.0",
     "scratch-parser": "^5.1.1",
-    "scratch-sb1-converter": "^0.2.7",
+    "scratch-sb1-converter": "^1.0.0",
     "scratch-translate-extension-languages": "^1.0.0",
     "text-encoding": "^0.7.0",
     "uuid": "^8.3.2",
