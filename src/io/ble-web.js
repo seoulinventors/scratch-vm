@@ -1,4 +1,4 @@
-const log = require('../../util/log');
+const log = require('../util/log');
 
 const uint8ArrayToBase64 = array => window.btoa(String.fromCharCode(...array));
 const base64ToUint8Array = base64 => {
