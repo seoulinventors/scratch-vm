@@ -35,7 +35,7 @@
     "mbitMore.displayMatrix": " [MATRIX] 모양표시",
     "mbitMore.displayText": "[TEXT] 글자를 [DELAY] ms 동안 표시",
     "mbitMore.clearDisplay": "화면 지움",
-    "mbitMore.isPinHigh": "[PIN]핀 디지털 입력",
+    "mbitMore.isPinHigh": "[PIN]핀의 디지털 입력값",
     "mbitMore.lightLevel": "빛의 밝기",
     "mbitMore.temperature": "온도°C ",
     "mbitMore.compassHeading": "나침반 방향 ° ",
