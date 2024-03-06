@@ -2173,23 +2173,23 @@ class MbitMoreBlocks {
             blockIconURI: blockIcon,
             showStatusButton: true,
             blocks: [
-                {
-                    opcode: 'whenConnectionChanged',
-                    text: formatMessage({
-                        id: 'mbitMore.whenConnectionChanged',
-                        default: 'when micro:bit [STATE]',
-                        description: 'when a micro:bit connection state changed'
-                    }),
-                    blockType: BlockType.HAT,
-                    arguments: {
-                        STATE: {
-                            type: ArgumentType.STRING,
-                            menu: 'connectionStateMenu',
-                            defaultValue: 'connected'
-                        }
-                    }
-                },
-                '---',
+                // {
+                //     opcode: 'whenConnectionChanged',
+                //     text: formatMessage({
+                //         id: 'mbitMore.whenConnectionChanged',
+                //         default: 'when micro:bit [STATE]',
+                //         description: 'when a micro:bit connection state changed'
+                //     }),
+                //     blockType: BlockType.HAT,
+                //     arguments: {
+                //         STATE: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'connectionStateMenu',
+                //             defaultValue: 'connected'
+                //         }
+                //     }
+                // },
+                // '---',
                 {
                     opcode: 'whenButtonEvent',
                     text: formatMessage({
@@ -2227,43 +2227,43 @@ class MbitMoreBlocks {
                         }
                     }
                 },
-                {
-                    opcode: 'whenTouchEvent',
-                    text: formatMessage({
-                        id: 'mbitMore.whenTouchEvent',
-                        default: 'when pin [NAME] is [EVENT]',
-                        description: 'when the selected touch pin on the micro:bit is touched'
-                    }),
-                    blockType: BlockType.HAT,
-                    arguments: {
-                        NAME: {
-                            type: ArgumentType.STRING,
-                            menu: 'touchIDMenu',
-                            defaultValue: MbitMoreButtonName.LOGO
-                        },
-                        EVENT: {
-                            type: ArgumentType.STRING,
-                            menu: 'touchEventMenu',
-                            defaultValue: MbitMoreButtonEventName.DOWN
-                        }
-                    }
-                },
-                {
-                    opcode: 'isPinTouched',
-                    text: formatMessage({
-                        id: 'mbitMore.isPinTouched',
-                        default: 'pin [NAME] is touched?',
-                        description: 'is the selected pin is touched?'
-                    }),
-                    blockType: BlockType.BOOLEAN,
-                    arguments: {
-                        NAME: {
-                            type: ArgumentType.STRING,
-                            menu: 'touchIDMenu',
-                            defaultValue: MbitMoreButtonName.LOGO
-                        }
-                    }
-                },
+                // {
+                //     opcode: 'whenTouchEvent',
+                //     text: formatMessage({
+                //         id: 'mbitMore.whenTouchEvent',
+                //         default: 'when pin [NAME] is [EVENT]',
+                //         description: 'when the selected touch pin on the micro:bit is touched'
+                //     }),
+                //     blockType: BlockType.HAT,
+                //     arguments: {
+                //         NAME: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'touchIDMenu',
+                //             defaultValue: MbitMoreButtonName.LOGO
+                //         },
+                //         EVENT: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'touchEventMenu',
+                //             defaultValue: MbitMoreButtonEventName.DOWN
+                //         }
+                //     }
+                // },
+                // {
+                //     opcode: 'isPinTouched',
+                //     text: formatMessage({
+                //         id: 'mbitMore.isPinTouched',
+                //         default: 'pin [NAME] is touched?',
+                //         description: 'is the selected pin is touched?'
+                //     }),
+                //     blockType: BlockType.BOOLEAN,
+                //     arguments: {
+                //         NAME: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'touchIDMenu',
+                //             defaultValue: MbitMoreButtonName.LOGO
+                //         }
+                //     }
+                // },
                 '---',
                 {
                     opcode: 'whenGesture',
@@ -2380,22 +2380,22 @@ class MbitMoreBlocks {
                     }),
                     blockType: BlockType.REPORTER
                 },
-                {
-                    opcode: 'getMagneticForce',
-                    text: formatMessage({
-                        id: 'mbitMore.magneticForce',
-                        default: 'magnetic force',
-                        description: 'value of magnetic force (micro tesla)'
-                    }),
-                    blockType: BlockType.REPORTER,
-                    arguments: {
-                        AXIS: {
-                            type: ArgumentType.STRING,
-                            menu: 'axis',
-                            defaultValue: AxisSymbol.Absolute
-                        }
-                    }
-                },
+                // {
+                //     opcode: 'getMagneticForce',
+                //     text: formatMessage({
+                //         id: 'mbitMore.magneticForce',
+                //         default: 'magnetic force',
+                //         description: 'value of magnetic force (micro tesla)'
+                //     }),
+                //     blockType: BlockType.REPORTER,
+                //     arguments: {
+                //         AXIS: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'axis',
+                //             defaultValue: AxisSymbol.Absolute
+                //         }
+                //     }
+                // },
                 {
                     opcode: 'getAcceleration',
                     text: formatMessage({
@@ -2429,27 +2429,27 @@ class MbitMoreBlocks {
                         }
                     }
                 },
-                {
-                    opcode: 'setPullMode',
-                    text: formatMessage({
-                        id: 'mbitMore.setPullMode',
-                        default: 'set pin [PIN] to input [MODE]',
-                        description: 'set a pin into the mode'
-                    }),
-                    blockType: BlockType.COMMAND,
-                    arguments: {
-                        PIN: {
-                            type: ArgumentType.STRING,
-                            menu: 'gpio',
-                            defaultValue: '0'
-                        },
-                        MODE: {
-                            type: ArgumentType.STRING,
-                            menu: 'pinMode',
-                            defaultValue: MbitMorePullModeName.UP
-                        }
-                    }
-                },
+                // {
+                //     opcode: 'setPullMode',
+                //     text: formatMessage({
+                //         id: 'mbitMore.setPullMode',
+                //         default: 'set pin [PIN] to input [MODE]',
+                //         description: 'set a pin into the mode'
+                //     }),
+                //     blockType: BlockType.COMMAND,
+                //     arguments: {
+                //         PIN: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'gpio',
+                //             defaultValue: '0'
+                //         },
+                //         MODE: {
+                //             type: ArgumentType.STRING,
+                //             menu: 'pinMode',
+                //             defaultValue: MbitMorePullModeName.UP
+                //         }
+                //     }
+                // },
                 {
                     opcode: 'isPinHigh',
                     text: formatMessage({
@@ -2508,6 +2508,7 @@ class MbitMoreBlocks {
                         }
                     }
                 },
+                '---',
                 {
                     opcode: 'setServo',
                     text: formatMessage({
@@ -2536,34 +2537,34 @@ class MbitMoreBlocks {
                         }
                     }
                 },
-                {
-                    opcode: 'playTone',
-                    text: formatMessage({
-                        id: 'mbitMore.playTone',
-                        default: 'play tone [FREQ] Hz volume [VOL] %',
-                        description: 'play tone on the speaker'
-                    }),
-                    blockType: BlockType.COMMAND,
-                    arguments: {
-                        FREQ: {
-                            type: ArgumentType.NUMBER,
-                            defaultValue: 440
-                        },
-                        VOL: {
-                            type: ArgumentType.NUMBER,
-                            defaultValue: 100
-                        }
-                    }
-                },
-                {
-                    opcode: 'stopTone',
-                    text: formatMessage({
-                        id: 'mbitMore.stopTone',
-                        default: 'stop tone',
-                        description: 'stop tone on the speaker'
-                    }),
-                    blockType: BlockType.COMMAND
-                },
+                // {
+                //     opcode: 'playTone',
+                //     text: formatMessage({
+                //         id: 'mbitMore.playTone',
+                //         default: 'play tone [FREQ] Hz volume [VOL] %',
+                //         description: 'play tone on the speaker'
+                //     }),
+                //     blockType: BlockType.COMMAND,
+                //     arguments: {
+                //         FREQ: {
+                //             type: ArgumentType.NUMBER,
+                //             defaultValue: 440
+                //         },
+                //         VOL: {
+                //             type: ArgumentType.NUMBER,
+                //             defaultValue: 100
+                //         }
+                //     }
+                // },
+                // {
+                //     opcode: 'stopTone',
+                //     text: formatMessage({
+                //         id: 'mbitMore.stopTone',
+                //         default: 'stop tone',
+                //         description: 'stop tone on the speaker'
+                //     }),
+                //     blockType: BlockType.COMMAND
+                // },
                 '---',
                 {
                     opcode: 'listenPinEventType',
@@ -2628,56 +2629,56 @@ class MbitMoreBlocks {
                             defaultValue: '0'
                         }
                     }
-                },
-                '---',
-                {
-                    opcode: 'whenDataReceived',
-                    text: formatMessage({
-                        id: 'mbitMore.whenDataReceived',
-                        default: 'when data with label [LABEL] received from micro:bit',
-                        description: 'when the data which has the label received'
-                    }),
-                    blockType: BlockType.HAT,
-                    arguments: {
-                        LABEL: {
-                            type: ArgumentType.STRING,
-                            defaultValue: 'label-01'
-                        }
-                    }
-                },
-                {
-                    opcode: 'getDataLabeled',
-                    text: formatMessage({
-                        id: 'mbitMore.getDataLabeled',
-                        default: 'data of label [LABEL]',
-                        description: 'the last data which has the label'
-                    }),
-                    blockType: BlockType.REPORTER,
-                    arguments: {
-                        LABEL: {
-                            type: ArgumentType.STRING,
-                            defaultValue: 'label-01'
-                        }
-                    }
-                },
-                {
-                    opcode: 'sendData',
-                    text: formatMessage({
-                        id: 'mbitMore.sendData',
-                        default: 'send data [DATA] with label [LABEL] to micro:bit',
-                        description: 'send data content with label to micro:bit'
-                    }),
-                    blockType: BlockType.COMMAND,
-                    arguments: {
-                        LABEL: {
-                            type: ArgumentType.STRING,
-                            defaultValue: 'label-01'
-                        },
-                        DATA: {
-                            type: ArgumentType.STRING,
-                            defaultValue: 'data'
-                        }
-                    }
+                // },
+                // '---',
+                // {
+                //     opcode: 'whenDataReceived',
+                //     text: formatMessage({
+                //         id: 'mbitMore.whenDataReceived',
+                //         default: 'when data with label [LABEL] received from micro:bit',
+                //         description: 'when the data which has the label received'
+                //     }),
+                //     blockType: BlockType.HAT,
+                //     arguments: {
+                //         LABEL: {
+                //             type: ArgumentType.STRING,
+                //             defaultValue: 'label-01'
+                //         }
+                //     }
+                // },
+                // {
+                //     opcode: 'getDataLabeled',
+                //     text: formatMessage({
+                //         id: 'mbitMore.getDataLabeled',
+                //         default: 'data of label [LABEL]',
+                //         description: 'the last data which has the label'
+                //     }),
+                //     blockType: BlockType.REPORTER,
+                //     arguments: {
+                //         LABEL: {
+                //             type: ArgumentType.STRING,
+                //             defaultValue: 'label-01'
+                //         }
+                //     }
+                // },
+                // {
+                //     opcode: 'sendData',
+                //     text: formatMessage({
+                //         id: 'mbitMore.sendData',
+                //         default: 'send data [DATA] with label [LABEL] to micro:bit',
+                //         description: 'send data content with label to micro:bit'
+                //     }),
+                //     blockType: BlockType.COMMAND,
+                //     arguments: {
+                //         LABEL: {
+                //             type: ArgumentType.STRING,
+                //             defaultValue: 'label-01'
+                //         },
+                //         DATA: {
+                //             type: ArgumentType.STRING,
+                //             defaultValue: 'data'
+                //         }
+                //     }
                 }
             ],
             menus: {
