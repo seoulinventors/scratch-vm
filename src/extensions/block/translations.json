@@ -43,7 +43,7 @@
     "mbitMore.acceleration": "[AXIS]방향 가속도",
     "mbitMore.pitch": "앞뒤 기울임",
     "mbitMore.roll": "좌우 기울임",
-    "mbitMore.soundLevel": "사운드 크기",
+    "mbitMore.soundLevel": "소리 크기",
     "mbitMore.analogValue": "[PIN]핀의 아날로그 입력값",
     "mbitMore.setPullMode": "[PIN]핀을 [MODE]모드로 바꾸기",
     "mbitMore.setDigitalOut": "[PIN]핀에 디지털 [LEVEL]신호 내보내기",
