@@ -1660,14 +1660,14 @@ class MbitMoreBlocks {
                 }),
                 value: MbitMoreGestureName.FACE_DOWN
             },
-            {
-                text: formatMessage({
-                    id: 'mbitMore.gesturesMenu.freefall',
-                    default: 'freefall',
-                    description: 'label for freefall gesture in gesture picker for microbit more extension'
-                }),
-                value: MbitMoreGestureName.FREEFALL
-            },
+            // {
+            //     text: formatMessage({
+            //         id: 'mbitMore.gesturesMenu.freefall',
+            //         default: 'freefall',
+            //         description: 'label for freefall gesture in gesture picker for microbit more extension'
+            //     }),
+            //     value: MbitMoreGestureName.FREEFALL
+            // },
             // {
             //     text: formatMessage({
             //         id: 'mbitMore.gesturesMenu.g3',
