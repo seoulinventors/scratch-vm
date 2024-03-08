@@ -1668,30 +1668,30 @@ class MbitMoreBlocks {
                 }),
                 value: MbitMoreGestureName.FREEFALL
             },
-            {
-                text: formatMessage({
-                    id: 'mbitMore.gesturesMenu.g3',
-                    default: '3G',
-                    description: 'label for 3G gesture in gesture picker for microbit more extension'
-                }),
-                value: MbitMoreGestureName.G3
-            },
-            {
-                text: formatMessage({
-                    id: 'mbitMore.gesturesMenu.g6',
-                    default: '6G',
-                    description: 'label for 6G gesture in gesture picker for microbit more extension'
-                }),
-                value: MbitMoreGestureName.G6
-            },
-            {
-                text: formatMessage({
-                    id: 'mbitMore.gesturesMenu.g8',
-                    default: '8G',
-                    description: 'label for 3G gesture in gesture picker for microbit more extension'
-                }),
-                value: MbitMoreGestureName.G8
-            },
+            // {
+            //     text: formatMessage({
+            //         id: 'mbitMore.gesturesMenu.g3',
+            //         default: '3G',
+            //         description: 'label for 3G gesture in gesture picker for microbit more extension'
+            //     }),
+            //     value: MbitMoreGestureName.G3
+            // },
+            // {
+            //     text: formatMessage({
+            //         id: 'mbitMore.gesturesMenu.g6',
+            //         default: '6G',
+            //         description: 'label for 6G gesture in gesture picker for microbit more extension'
+            //     }),
+            //     value: MbitMoreGestureName.G6
+            // },
+            // {
+            //     text: formatMessage({
+            //         id: 'mbitMore.gesturesMenu.g8',
+            //         default: '8G',
+            //         description: 'label for 3G gesture in gesture picker for microbit more extension'
+            //     }),
+            //     value: MbitMoreGestureName.G8
+            // },
             {
                 text: formatMessage({
                     id: 'mbitMore.gesturesMenu.shake',
