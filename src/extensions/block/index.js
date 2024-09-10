@@ -1112,7 +1112,7 @@ class MbitMore {
             this._ble.disconnect();
         }
         this.bleBusy = true;
-        if (('blutooth' in navigator) && this.isKeyPressing('Shift')) {
+        if (('bluetooth' in navigator) && this.isKeyPressing('Shift')) {
             this.scanBLE();
         } else {
             this.scanSerial();
