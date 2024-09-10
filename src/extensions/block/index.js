@@ -1112,10 +1112,10 @@ class MbitMore {
             this._ble.disconnect();
         }
         this.bleBusy = true;
-        if (('serial' in navigator) && this.isKeyPressing('Shift')) {
-            this.scanSerial();
-        } else {
+        if (('blutooth' in navigator) && this.isKeyPressing('Shift')) {
             this.scanBLE();
+        } else {
+            this.scanSerial();
         }
         // The key state is cleared because the keyup event will be dropped by the browser dialog.
         this.keyState = {};
